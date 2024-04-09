@@ -14,12 +14,10 @@ To write a program to find the square root of a number.
 4. Calculate  number = 0.5 * (number + a / number) for 100 iterations.
 5. Return number
 
-## Program:
-```
-
-Program to find the square root for the given number(newton's method) using function.
-Developed by: K.Ligneshwar
-RegisterNumber: 212223230113 
+## Program to find the square root for the given number(newton's method) using function.
+## Developed by: K.Ligneshwar
+## RegisterNumber: 212223230113
+``` 
 def newton_method(number,iterations=100):
     for i in range(iterations):
         number=0.5*(number+inp/number)
@@ -27,11 +25,7 @@ def newton_method(number,iterations=100):
 inp=int(input())
 print("Square root of the number:",newton_method(inp))
 ```
-
 ## Output:
-![Screenshot 2024-03-24 193953](https://github.com/drgbhuvaneswari/Square-root-of-a-number/assets/149365037/ae3eb4d0-db87-4c78-b20c-9fb578bddddd)
-
-
-
+![alt text](<Screenshot 2024-04-09 091306.png>)
 ## Result:
 Thus the program to find the square root for the given number(newton's method) using function is written and verified using python programming.
